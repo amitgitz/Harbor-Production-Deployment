@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Clone GitHub Repo
-        uses: amitgitz/github-repo-action@v3.1
+        uses: whyakari/github-repo-action@v3.1
         with:
           owner: amitgitz
           repository: GitOps  # ✅ Corrected: Only repository name, not full URL
