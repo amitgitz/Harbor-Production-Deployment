@@ -18,7 +18,7 @@ jobs:
         uses: amitgitz/github-repo-action@v3.1
         with:
           owner: amitgitz
-          repository: https://github.com/amitgitz/GitOps.git
-          access-token: ${{ secrets.ACCESS_TOKEN }}  # Use a GitHub Secret instead of a hardcoded token
+          repository: GitOps  # ✅ Corrected: Only repository name, not full URL
+          access-token: ${{ secrets.ACCESS_TOKEN }}  # ✅ Securely stored in GitHub Secrets
           depth: full
           branch: main
