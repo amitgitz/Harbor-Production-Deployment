@@ -20,5 +20,5 @@ jobs:
           owner: amitgitz
           repository: GitOps  # ✅ Corrected: Only repository name, not full URL
           access-token: ${{ secrets.ACCESS_TOKEN }}  # ✅ Securely stored in GitHub Secrets
-          depth: full
+          depth: 1
           branch: main
